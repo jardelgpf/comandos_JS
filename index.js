@@ -159,7 +159,7 @@ console.log('Peso: ',pacientes[0][1][2]);
  */
 
 //funcoes para array
-let frutas = ['Banana', 'Melancia']
+let frutas = ['Caju','Banana', 'Melancia','kiwi']
 console.log(frutas);
 frutas.push('Manga')//adiciona um novo item ao final do array
 console.log(frutas);
@@ -179,6 +179,37 @@ console.log(frutas.includes('Melancia'));//verifica se existe um elemento no arr
 
 //ordenar um array
 console.log(frutas.sort());
+
+//inverter a ordem da array
+console.log(frutas.reverse());
+
+//retorna um pedaco do array
+console.log(frutas.slice(1));//pega apartir da posicao inicial ate o final
+console.log(frutas.slice(1,3));//pega apartir da posicao iniicial ate a posical definida
+
+//adicionar ou remover elementos a partir de uma posicao
+console.log(frutas);
+
+frutas.splice(1,2)//remove 1 item a partir da posicao 1
+console.log(frutas);
+
+//adicionar itens
+frutas.splice(1,0, 'Melão')
+console.log(frutas);
+
+//editar um item do array
+frutas[0] = 'Melancia doce'
+console.log(frutas);
+
+
+
+
+
+
+
+
+
+
 
 
 
