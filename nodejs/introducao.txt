@@ -1,0 +1,10 @@
+node js e um framerowk javascript para rodar js fora do navegador
+permite criar modulos, classes, usar pacotes externos e etc
+ 
+DIFERENÇAS                                           NAVEGADOR              NODEJS
+DOM (manipulação de elementos html)                  | SIM                   | NAO
+WINDOW(objeto disponivel apenas no navegador)        | SIM                   | NAO
+CONSOLE.LOG                                          | SIM                   | SIM
+REQUIRE(IMPORTAR ARQUIVOS EXTERNOS)                  | NAO                   | SIM
+FS(LEITURA DE ARQUIVOS)                              | NAO                   | SIM
+HTTP(hipertext transfer protocol)                    | NAO                   | SIM
